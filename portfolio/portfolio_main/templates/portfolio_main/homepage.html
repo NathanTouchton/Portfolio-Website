@@ -90,8 +90,7 @@
             <!-- About -->
             <article id="about">
                 <h2 class="major">About</h2>
-                <!-- CONTINUE HERE -->
-                <span class="image main"><img src="/static/images/turntable.jpg" alt="" /></span>
+                <span class="image main"><img src="{% static 'portfolio_main/images/turntable.jpg' %}" alt="" /></span>
                 <p>
                     I started programming for fun some time in late 2021. I loved it so much that I decided I wanted to
                     change career paths to do that professionally instead of IT.
@@ -401,11 +400,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
     <div id="bg"></div>
 
     <!-- Scripts -->
-    <script src="/static/assets/js/jquery.min.js"></script>
-    <script src="/static/assets/js/browser.min.js"></script>
-    <script src="/static/assets/js/breakpoints.min.js"></script>
-    <script src="/static/assets/js/util.js"></script>
-    <script src="/static/assets/js/main.js"></script>
+    <!-- <script src="/static/assets/js/jquery.min.js"></script> -->
+    <script src="{% static 'portfolio_main/assets/js/jquery.min.js' %}"></script>
+    <!-- <script src="/static/assets/js/browser.min.js"></script> -->
+    <script src="{% static 'portfolio_main/assets/js/browser.min.js' %}"></script>
+    <!-- <script src="/static/assets/js/breakpoints.min.js"></script> -->
+    <script src="{% static 'portfolio_main/assets/js/breakpoints.min.js' %}"></script>
+    <!-- <script src="/static/assets/js/util.js"></script> -->
+    <script src="{% static 'portfolio_main/assets/js/util.js' %}"></script>
+    <!-- <script src="/static/assets/js/main.js"></script> -->
+    <script src="{% static 'portfolio_main/assets/js/main.js' %}"></script>
 
 </body>
 
