@@ -26,10 +26,6 @@ SECRET_KEY = os.environ["SECRET_KEY"]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-# TODO 1: Add a contact me form.
-# TODO 2: Make sure information is up to date, accurate, and complete.
-# TODO 3: Make sure settings are ready for production.
-
 ALLOWED_HOSTS = ["ntprogramming.us", "www.ntprogramming.us"]
 
 # Application definition
