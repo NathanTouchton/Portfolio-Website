@@ -39,7 +39,7 @@
                     <li><a href="#intro">Intro</a></li>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#about">About</a></li>
-                    <!-- <li><a href="#contact">Contact</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
                     <!-- <li><a href="#elements">Elements</a></li> -->
                 </ul>
             </nav>
@@ -103,7 +103,7 @@
                     My favorite types of music are metalcore and post-hardcore. I like it heavy and loud!
                 </p>
                 <p>
-                    I'm not on social media, but you can find me on GitHub or send me an email using the contact page on
+                    I'm not on social media, but you can find me on <a href="https://github.com/nathantouchton" target="_blank"><b>GitHub</b></a> or send me an email using the contact page on
                     this site.
                 </p>
             </article>
@@ -111,7 +111,8 @@
             <!-- Contact -->
             <article id="contact">
                 <h2 class="major">Contact</h2>
-                <form method="post" action="#">
+                <form method="post" action="{% url 'portfolio:contact' %}">
+                    {% csrf_token %}
                     <div class="fields">
                         <div class="field half">
                             <label for="name">Name</label>
