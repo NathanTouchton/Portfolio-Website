@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'portfolio_main.apps.PortfolioMainConfig',
 ]
 
+CSRF_TRUSTED_ORIGINS = ["https://ntprogramming.us", "https://www.ntprogramming.us"]
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
