@@ -28,7 +28,7 @@ SECRET_KEY = os.environ["SECRET_KEY"]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["ntprogramming.us", "www.ntprogramming.us", "172.232.14.10", "127.0.0.1"]
+ALLOWED_HOSTS = ["ntprogramming.us", "www.ntprogramming.us"]
 
 # Application definition
 
